@@ -9,6 +9,7 @@ body {
 }
 
 /* Header styling start */
+/* Sets the style for everything in the header section*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,16 +17,18 @@ body {
     color: #ffffff;
     
 }
-
+/* Sets the format for the actual heading*/
 #header_format {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Sets the color change for the "SEO" in Horiseon */
 .seo {
     color: #d9dcd6;
 }
 
+/* Sets the format for the navigation links in the header */
 #navigation {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,11 +38,13 @@ body {
     
 }
 
+/* Defines styling for the list */
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Defines the color and styling of the text for the navigation links */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -47,6 +52,7 @@ a {
 /* Header styling end */
 
 /* Picture styling start */
+/* Styles the main picture for the page */
 .main_picture {
     height: 800px;
     width: 100%;
@@ -58,13 +64,14 @@ a {
 /* Picture styling end */
 
 /* Main styling start */
+/* styles the main section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.section_header {
+/* Styles each section within main */
+.sections {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -73,19 +80,23 @@ a {
     color: #ffffff;
 }
 
+/* Styles the paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Styles the images */
 #img_style {
     max-height: 200px;
 }
 
+/* Styles the headings within each section */
 #h2_style {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Used to determine the position of the image within each section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -99,6 +110,7 @@ p {
 /* Main styling end */
 
 /* Sidebar styling start */
+/* Sets the main styling of the "aside" component of the webpage */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -110,17 +122,19 @@ p {
     background-color: #2589bd;
 }
 
+/* Styles the text */
 .benefit-style {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* Styles the headings */
 .benefit-style h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Styles the images */
 .benefit-style img {
     display: block;
     margin: 10px auto;
@@ -128,14 +142,14 @@ p {
 }
 
 /* Sidebar styling end */
-
+/* Styles the footer section */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Styles the footer heading */
 .footer h2 {
     font-size: 20px;
 }
